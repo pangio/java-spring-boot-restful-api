@@ -86,7 +86,6 @@ public class MagazineService {
 
 	/**
 	 * Deletes an {@link Article} from the list of the {@link Magazine}
-	 * @param magazineId of the magazine which contains the article
 	 * @param articleId of the article to be deleted
 	 */
 	public void deleteArticleFromMagazine(Long articleId) {

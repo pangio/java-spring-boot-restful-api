@@ -1,6 +1,5 @@
 package com.pangio.magazine.api.factory;
 
-import com.pangio.magazine.api.domain.Article;
 import com.pangio.magazine.api.domain.PoliticArticle;
 
 /**
@@ -14,7 +13,7 @@ public class PoliticArticleFactory extends AbstractArticleFactory{
 	 * Method used to create an {@link PoliticArticle}
 	 */
 	@Override
-	public Article createArticle() {
+	public PoliticArticle createArticle() {
 		return new PoliticArticle();
 	}
 	
