@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Java-spring-boot-restful-api by pangio</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Java-spring-boot-restful-api</h1>
+        <p>Magazine API - restful API example. </p>
+
+        <p class="view"><a href="https://github.com/pangio/java-spring-boot-restful-api">View the Project on GitHub <small>pangio/java-spring-boot-restful-api</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/pangio/java-spring-boot-restful-api/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/pangio/java-spring-boot-restful-api/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/pangio/java-spring-boot-restful-api">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Magazine API - restful API example. </p>
+
+<h1>
+<a id="stack" class="anchor" href="#stack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stack</h1>
+
+<ul>
+<li> Java 8</li>
+<li> JPA</li>
+<li> Spring Boot</li>
+<li> JUnit - Mockito</li>
+<li> Gradle</li>
+</ul>
+
+<h1>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h1>
+
+<ul>
+<li> jdk 1.8</li>
+<li> gradle 2.2.1</li>
+<li> any REST Client (like XHR Poster)</li>
+<li> OPTIONAL: GGTS (or your favorite IDE)</li>
+</ul>
+
+<h1>
+<a id="run-the-example" class="anchor" href="#run-the-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run the example</h1>
+
+<p>From IDE: </p>
+
+<pre><code>Import the project into the IDE. 
+Build it with Gradle. 
+Execute the class Application.java.
+</code></pre>
+
+<p>From Terminal / Command line:</p>
+
+<ul>
+<li>clone the repo</li>
+</ul>
+
+<pre><code>https://github.com/pangio/java-spring-boot-restful-api.git
+</code></pre>
+
+<ul>
+<li>Build</li>
+</ul>
+
+<pre><code>./gradlew build
+</code></pre>
+
+<ul>
+<li>Run</li>
+</ul>
+
+<pre><code>./gradlew bootRun
+</code></pre>
+
+<ul>
+<li>use the REST Client to hit the following endpoints</li>
+</ul>
+
+<h1>
+<a id="endpoints--http-methods" class="anchor" href="#endpoints--http-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Endpoints / Http Methods</h1>
+
+<ul>
+<li>POST - Creates a new Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/
+</code></pre>
+
+<ul>
+<li>GET - Returns a Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/{magazineId}
+</code></pre>
+
+<ul>
+<li>GET - Returns the list of all magazines.</li>
+</ul>
+
+<pre><code>URI: /magazines/
+</code></pre>
+
+<ul>
+<li>PUT - Updates a Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/{magazineId}
+</code></pre>
+
+<ul>
+<li>DELETE - Deletes a Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/{magazineId}
+</code></pre>
+
+<ul>
+<li>POST - Creates a new Politic Article and is added the the articles list of the Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/{magazineId}/politic
+</code></pre>
+
+<ul>
+<li>POST - Creates a new Sport Article and is added the the articles list of the Magazine.</li>
+</ul>
+
+<pre><code>URI: /magazines/{magazineId}/sport
+</code></pre>
+
+<h1>
+<a id="tests" class="anchor" href="#tests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tests</h1>
+
+<ul>
+<li>Under the test source folder find the suite com.pangio.magazine.api.AllTests</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/pangio">pangio</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
